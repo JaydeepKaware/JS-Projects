@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <link rel="stylesheet" href="15th.css" />
+  </head>
+  <body>
+    <main>
+      <div class="card">
+        <h2>Please fill out all fields</h2>
+        <form id="form">
+          <input
+            type="text"
+            name="name"
+            autocomplete="Name"
+            placeholder="Name"
+          />
+          <input
+            type="email"
+            name="email"
+            autocomplete="email"
+            placeholder="Email"
+          />
+          <input
+            type="password"
+            name="password"
+            autocomplete="current-password"
+            placeholder="Password"
+          />
+          <input id="dob"
+            type="date"
+            name="dateofbirth"
+            autocomplete="dateofbirth"
+            placeholder="date of birth"
+          />
+          <select name="Country" id="Country">
+            <option value="Balaghat">Balaghat</option>
+            <option value="Banglore">Banglore</option>
+            <option value="Bhopal">Bhopal</option>
+            <option value="Chennai">Chennai</option>
+            <option value="Delhi">Delhi</option>
+            <option value="Gujrat">Gujrat</option>
+            <option value="Gwaliar">Gwaliar</option>
+            <option value="Jammu">Jammu</option>
+            <option value="Kashmir">Kashmir</option>
+            <option value="Kolkata">Kolkata</option>
+            <option value="Mumbai">Mumbai</option>
+            <option value="Nagpur">Nagpur</option>
+            <option value="Punjab">Punjab</option>
+            <option value="Rajasthan">Rajasthan</option>
+          </select>
+          <input type="submit" value="Submit" class="submit" />
+        </form>
+      </div>
+    </main>
+    <script src="15th.js"></script>
+  </body>
+</html>

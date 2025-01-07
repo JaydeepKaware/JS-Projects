@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: helvetica;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+main{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(28, 118, 156);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-image: url(https://i.pinimg.com/736x/2d/26/3e/2d263e6b28d6c380dd4c986295973b32.jpg); */
+    background-image: url(https://i.pinimg.com/736x/7f/6f/51/7f6f51c79746ccca70c7fd2b9f84bb3f.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.card{
+    position: relative;
+    height: 480px;
+    width: 340px;
+    background-color: #1b181848;
+    border: 3px solid rgb(17, 16, 16);
+    box-shadow: 0 0 10px 5px rgb(22, 24, 24); 
+    border-radius: 15px;
+}
+.card:hover{
+    box-shadow: 0 0 10px 5px rgb(218, 224, 225); 
+}
+#storiyan{
+    height: 100px;
+    width: 100%;
+    /* border-bottom: 1.5px solid rgb(104, 103, 103); */
+    padding: 10px;
+    white-space: nowrap;
+    overflow-y: hidden;
+    overflow-x: auto;
+    scrollbar-color: rgb(79, 82, 82) rgb(35, 36, 36);
+    scrollbar-width: thin;
+}
+
+/* #storiyan::-webkit-scrollbar{
+    width: 5px;
+    height: 7px;
+} */
+
+.story{
+    height: 75px;
+    width: 75px;
+    /* background: linear-gradient(to right top,rgb(0, 42, 255), rgb(0, 255, 140),rgb(0, 42, 255)); */
+    background-color: rgb(183, 180, 180);
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 7px;
+    display: inline-block;
+}
+
+.story img{
+    height: 75px;
+    width: 75px;
+    object-fit: cover;
+    padding: 3px;
+    border-radius: 50%;
+}
+
+.full{
+    border-radius: 10px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: none;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    padding: 10px 15px; 
+  }
+  
+  .name{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .name h3{
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 700;
+  }
+  .name h5{
+    color: rgb(255, 255, 255);
+    font-size: 11px;
+    font-weight: 700;
+  }
+  
+  .name img {
+    margin-top: 5px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    padding: 2px;
+    border: 3px solid rgb(130, 128, 128);
+    object-fit: cover;
+  }
+  
+  
+  #progress{
+    margin-top: 5px;
+    width: 100%;
+    height: 3.5px;
+    border-radius: 50px;
+    background-color: rgb(218, 213, 213);
+  }
+  
+  #growth{
+    margin-top: 5px;
+    height: 100%;
+    width: 0%;
+    background-color: rgba(97, 95, 95);
+    border-radius: 50px;
+  }
+  

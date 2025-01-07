@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  font-family: helvetica;
+}
+
+main {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background-image: url(https://i.pinimg.com/474x/77/cc/21/77cc217318ff0ae9ac02e43a0623d065.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.card {
+  position: relative;
+  width: 300px;
+  height: 500px;
+  background-color: rgba(69, 68, 68, 0.041);
+  border-radius: 20px;
+  color: rgb(222, 225, 222);
+  box-shadow: 0 0 10px 5px rgb(0, 0, 0);
+}
+.card:hover {
+  box-shadow: 0 0 10px 5px rgb(234, 230, 230);
+}
+
+.card h2 {
+  margin: 20px;
+  margin-bottom: 0px;
+  font-weight: 500;
+}
+
+.user{
+  height: 90%;
+  padding: 20px;
+  padding-top: 0;
+  overflow: auto;
+}
+.user::-webkit-scrollbar {
+  width: 5px;
+}
+
+.part2 {
+  display: flex;
+  align-items: center;
+}
+.part2 img {
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  margin-top: 10px;
+  padding: 3px;
+  border: 3px solid lightgreen;
+  object-fit: cover;
+  pointer-events: none;
+}
+
+.text {
+  pointer-events: none;
+  padding: 15px;
+}
+
+.text h4 {
+  font-size: 16px;
+  font-weight: 500;
+}
+.text h5 {
+  font-size: 13px;
+  font-weight: 500;
+  margin-top: 3px;
+}
+
+.full{
+  border-radius: 10px;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: none;
+  background-size: cover;
+  background-position: center;
+  border-radius: 20px;
+  padding: 10px 15px; 
+}
+
+.name{
+  display: flex;
+  align-items: center;
+}
+
+.name h3{
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 700;
+}
+.name h5{
+  color: rgb(255, 255, 255);
+  font-size: 11px;
+  font-weight: 700;
+}
+
+.name img {
+  margin-top: 5px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  padding: 2px;
+  border: 2.5px solid rgb(240, 235, 235);
+  object-fit: cover;
+}
+
+
+#progress{
+  margin-top: 5px;
+  width: 100%;
+  height: 3.5px;
+  border-radius: 50px;
+  background-color: rgb(218, 213, 213);
+}
+
+#growth{
+  margin-top: 5px;
+  height: 100%;
+  width: 0%;
+  background-color: rgba(97, 95, 95);
+  border-radius: 50px;
+}
